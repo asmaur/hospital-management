@@ -1,0 +1,12 @@
+django==4.2
+djangorestframework
+django-filter
+#uWSGI==2.0.21
+psycopg2
+django-extensions
+pika
+pytest
+pytest-django
+Pillow
+gunicorn
+python-dotenv==1.0.0

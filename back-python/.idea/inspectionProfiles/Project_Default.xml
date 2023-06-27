@@ -1,0 +1,26 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="3">
+            <item index="0" class="java.lang.String" itemvalue="beautifulsoup4" />
+            <item index="1" class="java.lang.String" itemvalue="httpx" />
+            <item index="2" class="java.lang.String" itemvalue="pydantic" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="src.tests.test_get_url_host.InvoiceHostValidationError" />
+          <option value="src.tests.test_get_url_host.spider" />
+          <option value="business.core.v1.views.*" />
+          <option value="apps.users.v1.urls.UserLoginViewSet" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
